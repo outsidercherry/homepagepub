@@ -4,6 +4,19 @@
 layout: page
 title: Blog
 ---
+<nav class="{% if page.title == "Blog" %}nav-blog{% else %}nav{% endif %}">
 
-<STYLE>A {text-decoration: none;} </STYLE>
+        {% if site.life == true %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/blog/life">Life</a>
+            </li>
+        {% endif %}
+        
+        {% if site.tech == true %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/blog/tech">Tech</a>
+            </li>
+        {% endif %}
+</nav>
+
 
