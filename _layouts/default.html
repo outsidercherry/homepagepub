@@ -43,6 +43,12 @@ layout: compress
                 <div class="{{ page.title | downcase }}">
             {% endif %}
         {% endif %}
+                    
+        {% if !page.tag[1] %}
+            {% if showHeader = true %}
+                <div class="{{ page.tag[1].title | downcase }}">
+            {% endif %}
+        {% endif %}
 
             {{ content }}
         </div>
