@@ -27,6 +27,9 @@
 
 {% if page.title == Home %}
     {% include nav.html %}
-{% else %}
+{% endif %}
+
+
+{% if page.title == Blog %}
     {% include navblog.html %}
 {% endif %}
