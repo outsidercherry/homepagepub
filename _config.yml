@@ -58,13 +58,13 @@ authors:
         name: Mr. Chi
         bio: Mr. Chi
         external-image: false
-        picture: homepage/assets/images/profile.jpg
+        picture: assets/images/profile.jpg
         twitter: Mr. Chi
     jamesfoster:
         name: James Foster
         bio: A Man who develops software with coffee
         external-image: false
-        picture: homepage/assets/images/james.jpg
+        picture: assets/images/james.jpg
         twitter: jamesfoster
 
 # do you want a larger site? change the option below
