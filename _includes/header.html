@@ -21,6 +21,9 @@
         <h1 class="title">{{ site.name }}</h1>
         <h2 class="description">{{ site.bio }}</h2>
         
+        {% if site.BGPict %}
+            <img src="assets/images/55325477_p0.jpg" class="bg" />
+        {% endif %}
         
         {% include social-links.html %}
     </header>
