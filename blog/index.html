@@ -4,19 +4,28 @@
 layout: page
 title: Blog
 ---
-<nav class="{% if page.title == "Blog" %}nav-blog{% else %}nav{% endif %}">
+<section class="list">
+	{% if site.posts.size == 0 %}
+		<p class="text-center">Nothing published yet!</p>
+	{% elsif site.paginate %}
+		{% for post in paginator.posts %}
+			{% if post.category == 'blog' %}
+				{% if post.hidden != true %}
+					{% include blog-post.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
 
-        {% if site.life == true %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/blog/life">Life</a>
-            </li>
-        {% endif %}
-        
-        {% if site.tech == true %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/blog/tech">Tech</a>
-            </li>
-        {% endif %}
-</nav>
+		{% include pagination.html%}
+	{% else %}
+		{% for post in site.posts %}
+			{% if post.category == 'blog' %}
+				{% if post.hidden != true %}
+					{% include blog-post.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+</section>
 
 
