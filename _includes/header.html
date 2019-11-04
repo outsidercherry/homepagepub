@@ -20,7 +20,9 @@
 
         <h1 class="title">{{ site.name }}</h1>
         <h2 class="description">{{ site.bio }}</h2>
-
+        
+        {% if site.BGPict %}
+            <img src="images/bg.jpg" class="bg">
         {% include social-links.html %}
     </header>
 {% endif %}
