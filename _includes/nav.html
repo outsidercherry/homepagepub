@@ -14,12 +14,10 @@
             {% endif %}
         {% endif %}
         
-        {% if site.blog.life == true %}
-            {% if page.title != "Life" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/blog/life">Life</a>
-                </li>
-            {% endif %}
+        {% if page.next.title != "Blog" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/blog/life">Life</a>
+            </li>
         {% endif %}
 
         {% if site.projects == true %}
