@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Life"
-permalink: /Blog/Life/
+permalink: /blog/life/
 ---
 
 This is about life.
