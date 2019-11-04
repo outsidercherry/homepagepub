@@ -1,6 +1,6 @@
 <nav class="{% if page.title == "Blog" %}nav-blog{% else %}nav{% endif %}">
 
-{% if page.next.title = "Life" %}
+{% if site.life == true %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/blog/life">Life</a>
             </li>
