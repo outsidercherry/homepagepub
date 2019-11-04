@@ -25,9 +25,9 @@
     </header>
 {% endif %}
 
-
-{% include nav.html %}
-
+{% if page.title == "Home" %}
+    {% include nav.html %}
+{% endif %}
 
 
 
