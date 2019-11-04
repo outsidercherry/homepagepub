@@ -4,5 +4,6 @@
 layout: page
 title: Blog
 ---
-
-{% include navblog.html %}
+{% if page.title == "Blog" %}
+    {% include navblog.html %}
+{% endif %}
