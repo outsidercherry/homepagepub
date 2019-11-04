@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Mr. Chi
+bio: Wish me good luck!
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -54,12 +54,12 @@ medium: medium
 email: myemail@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    MrChi:
+        name: Mr. Chi
+        bio: Mr. Chi
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
+        twitter: Mr. Chi
     jamesfoster:
         name: James Foster
         bio: A Man who develops software with coffee
