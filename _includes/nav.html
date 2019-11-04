@@ -14,8 +14,6 @@
             {% endif %}
         {% endif %}
         
-        
-
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
                 <li class="item">
@@ -40,9 +38,9 @@
     </ul>
 </nav>
 
-<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
+<nav class="{% if page.title == "Blog" %}nav-blog{% else %}nav{% endif %}">
 
-{% if page.next.title != "Blog" %}
+{% if page.next.title = "Life" %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/blog/life">Life</a>
             </li>
