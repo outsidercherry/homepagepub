@@ -14,11 +14,7 @@
             {% endif %}
         {% endif %}
         
-        {% if page.next.title != "Blog" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/blog/life">Life</a>
-            </li>
-        {% endif %}
+        
 
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
@@ -42,4 +38,13 @@
             </li>
         {% endif %}
     </ul>
+</nav>
+
+<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
+
+{% if page.next.title != "Blog" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/blog/life">Life</a>
+            </li>
+        {% endif %}
 </nav>
