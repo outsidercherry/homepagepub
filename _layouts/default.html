@@ -34,6 +34,15 @@ layout: compress
 <body>
     {% if site.BGPict %}
             <img src="{{ site.url }}/assets/images/55325477_p0.jpg" class="bg" />
+            .bg {
+            position: absolute;
+            z-index: -1;
+            min-width: 100%;
+            min-height: 100%;
+            left: 0;
+            top: 0;
+            pointer-events: none;
+}
     {% endif %}
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
