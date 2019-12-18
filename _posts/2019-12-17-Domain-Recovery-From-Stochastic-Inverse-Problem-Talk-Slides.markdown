@@ -3,7 +3,7 @@ title: ":ramen: Domain Recovery From Stochastic Inverse Problem Talk Slides"
 layout: post
 date: 2019-12-17 1:00
 tag: jekyll
-image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
+image: https://outsidercherry.github.io/homepage/assets/images/nonconvexnew.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
