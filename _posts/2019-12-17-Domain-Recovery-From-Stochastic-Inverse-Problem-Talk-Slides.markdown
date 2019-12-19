@@ -2,7 +2,9 @@
 title: ":ramen: Domain Recovery From Stochastic Inverse Problem Talk Slides"
 layout: post
 date: 2019-12-17 1:00
-tag: Domian recovery; Stochastic Inverse Problem
+tag: 
+- Domian recovery
+- Stochastic Inverse Problem
 image: https://outsidercherry.github.io/homepage/assets/images/nonconvexnew.png
 headerImage: true
 projects: true
